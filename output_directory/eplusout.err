@@ -1,0 +1,50 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2024.08.16 15:37,
+   ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.
+   **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=SITE 1
+   **   ~~~   ** ..Weather File Location=San Francisco Intl Ap CA USA TMY3 WMO#=724940
+   **   ~~~   ** ..due to location differences, Latitude difference=[37.62] degrees, Longitude difference=[122.40] degrees.
+   **   ~~~   ** ..Time Zone difference=[8.0] hour(s), Elevation difference=[200.00] percent, [2.00] meters.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** No floor exists in Zone="THERMAL ZONE: ROOM1", zone floor area is zero. All values for this zone that are entered per floor area will be zero.
+   ** Warning ** No floor exists in Zone="THERMAL ZONE: ROOM2", zone floor area is zero. All values for this zone that are entered per floor area will be zero.
+   ** Warning ** CheckUsedConstructions: There are 22 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People="THERMAL ZONE: ROOM1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 PEOPLE", specifies People per Floor Area, but Space Floor Area = 0.  0 People will result.
+   ** Warning ** GetInternalHeatGains: People="THERMAL ZONE: ROOM2 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 PEOPLE", specifies People per Floor Area, but Space Floor Area = 0.  0 People will result.
+   ** Warning ** GetInternalHeatGains: Lights="THERMAL ZONE: ROOM1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS", specifies Watts per Zone Floor Area, but Space Floor Area = 0.  0 Lights will result.
+   ** Warning ** GetInternalHeatGains: Lights="THERMAL ZONE: ROOM2 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS", specifies Watts per Zone Floor Area, but Space Floor Area = 0.  0 Lights will result.
+   ** Warning ** GetInternalHeatGains: ElectricEquipment="THERMAL ZONE: ROOM1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT", specifies Watts per Zone Floor Area, but Space Floor Area = 0.  0 Electric Equipment will result.
+   ** Warning ** GetInternalHeatGains: ElectricEquipment="THERMAL ZONE: ROOM2 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT", specifies Watts per Zone Floor Area, but Space Floor Area = 0.  0 Electric Equipment will result.
+   ** Severe  ** ComputeIntSolarAbsorpFactors: Solar distribution model is set to place solar gains on the zone floor,
+   **   ~~~   ** but Zone or Enclosure ="THERMAL ZONE: ROOM1" does not appear to have any floor surfaces.
+   **   ~~~   ** Solar gains will be spread evenly on all surfaces in the zone, and the simulation continues...
+   ** Severe  ** ComputeIntSolarAbsorpFactors: Solar distribution model is set to place solar gains on the zone floor,
+   **   ~~~   ** but Zone or Enclosure ="THERMAL ZONE: ROOM2" does not appear to have any floor surfaces.
+   **   ~~~   ** Solar gains will be spread evenly on all surfaces in the zone, and the simulation continues...
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* There are 23 unused schedules in input.
+   ************* There are 40 unused week schedules in input.
+   ************* There are 97 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 13 Warning; 2 Severe Errors; Elapsed Time=00hr 00min  2.17sec

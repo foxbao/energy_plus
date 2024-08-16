@@ -1,0 +1,13 @@
+ ReadVarsESO
+ processing:C:\Users\jidus\Desktop\day04\day04.rvi
+ input file:output_directory\eplusout.eso
+ output file:output_directory\eplusout.csv
+ getting all vars from:output_directory\eplusout.eso
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.12sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\jidus\Desktop\day04\day04.mvi
+ Requested ESO file=output_directory\eplusout.mtr
+ does not exist.  ReadVarsESO program terminated.
+ ReadVarsESO program terminated.
